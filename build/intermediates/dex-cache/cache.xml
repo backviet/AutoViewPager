@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/a540cba9747ee9f75b9bf0be1a3973c3115a27de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9997042571203cafe6e85571ecfb187819a244ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8d5b6f1f6dab660b1bbbabe829874b2805abd420">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f7a6fb7ceb71d527eb07ccb0abd7d2a345ba42c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/a2d86ca7a5c3a3864f053435d210d71604392497/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82d8f11b8c4dfcdd5e79b4ad797b4ab419ba38dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/493d2bbe7e00e963e612317cd28a7dda96d1e477/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a319ea89d9fe517af4942fb9543918fd7a7da529/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_c8de37945b87d48888393438b228f1d6ac48e278/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3b3ed528935678444b97f78d73207407613e6e4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/0481b07a6bbcddb0d0f6adc079cf269148a4d34b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a16caea56924fece3863282d990aa4c91851274/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/36bf21bdb4701058d92d08944b47e7b3d3f725d3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fb7fff1391d63b1950984d2258229eef2518b60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/9c8da1d608e26f2c29f01c7980bb1c4a22368d89/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8fda398039768aac8e59f48f543071f98f19d69a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/4937e3e3d8bba95d40fdadb716a4b2fc792e40f1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_838790dfea7c182d5ede087b29a23c9a60586f11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/db3fb2de58bf5d4ec49f9c5fce9e53cc8f98d2e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c28a6c6627f06430d76bf6aafc797c8b00b3d5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/QuanLT/.android/build-cache/c53ecca89d0a08084e8bfc95e0e0b477c8e51865/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/QuanLT/Documents/Glide/AutoViewPager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9060103b3e1486cc11ae52e7c8a6e895299a365/classes.dex" />
+    </item>
+
+</items>

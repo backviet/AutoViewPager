@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    PUBLISH_GROUP_ID = 'com.zegome.utils.widget.pagers'
+    PUBLISH_ARTIFACT_ID = 'autoviewpager'
+
+    publishedGroupId = PUBLISH_GROUP_ID
+    libraryName = 'AutoViewPager'
+    artifact = PUBLISH_ARTIFACT_ID
+
+    libraryDescription = 'A library for auto multi view pager for android'
+
+    siteUrl = 'https://github.com/backviet01/AutoViewPager'
+    gitUrl = 'https://github.com/backviet01/AutoViewPager.git'
+
+    libraryVersion = PUBLISH_VERSION
+
+    // Bintray
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    developerId = properties.getProperty("DEVELOPER_ID")
+    developerName = properties.getProperty("DEVELOPER_NAME")
+    developerEmail = properties.getProperty("DEVELOPER_EMAIL")
+
+    bintrayRepo = properties.getProperty("PROJECT_REPO")
+    bintrayName = properties.getProperty("PROJECT_NAME")
+
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion TARGET_SDK
+    buildToolsVersion BUILD_TOOLS
+
+    defaultConfig {
+        minSdkVersion MIN_SDK
+        targetSdkVersion TARGET_SDK
+        versionCode PUBLISH_VERSION_CODE
+        versionName PUBLISH_VERSION
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            libraryVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.aar')) {
+                        def fileName = "${archivesBaseName}-${version}.aar"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:support-v4:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:support-annotations:$SUPPORT_LIBRARY_VERSION"
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="indicator_centered" format="boolean"/>
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="indicator_fillColor" format="color"/>
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="indicator_pageColor" format="color"/>
+        <!-- Orientation of the indicator. -->
+        <attr name="indicator_radius" format="dimension"/>
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="indicator_snap" format="boolean"/>
+        <!-- Color of the open circles. -->
+        <attr name="indicator_strokeColor" format="color"/>
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="indicator_strokeWidth" format="dimension"/>
+        <!-- Page background -->
+        <attr name="indicator_pageImg" format="color"/>
+        <!-- Fill background -->
+        <attr name="indicator_fillImg" format="color"/>
+    </declare-styleable>
+</resources>
